@@ -1,9 +1,9 @@
 body{
-	margin: 0;
-	padding: 0;
-	background: url('../img/layout-2bg.png');
-	width: 100%;
-	background-size: cover;
+  margin: 0;
+  padding: 0;
+  background: url('../img/layout-2bg.png');
+  width: 100%;
+  background-size: cover;
 }
 @font-face {
     font-family: 'Inter-Black';
@@ -19,33 +19,33 @@ body{
 }
 /* Screen 2 Css*/
 .layout2-bg{
-	padding-top: 20px;
+  padding-top: 20px;
 }
 .layout-container{
-	max-width: 1200px;
-	margin: auto;
-	padding:0px 15px;
+  max-width: 1200px;
+  margin: auto;
+  padding:0px 15px;
 }
 .screen-content{
-	padding: 100px 0px;
+  padding: 100px 0px;
 }
 .layout-row{
-	display: flex;
+  display: flex;
 }
 .colum-6{
-	width: 50%;
+  width: 50%;
 }
-.card-tagline h3{	
-	font-family: 'gtflex';
+.card-tagline h3{ 
+   font-family: 'gtflex';
     color: #fff;
-    font-size: 135px;
+    font-size: 98px;
     margin-top: 0;
     letter-spacing: 3px;
     font-weight: 300;
-    line-height: 136px;
+    line-height: 104px;
     padding: 0px 20px;
-  	animation: fade-in-down 2s ease;    
-}	
+    animation: fade-in-down 2s ease;    
+} 
 @keyframes fade-in-down {
   0% {
     opacity: 0;
@@ -57,32 +57,32 @@ body{
   }
 }
 .colum-6{
-	width: 50%;
+  width: 50%;
 }
 .info-card{
-	background: url('../img/infocard-g.png');
-	min-height: 440px;
-	background-size: cover;
-	display: flow-root;
-	border-radius: 0px 0px 10px 10px;
-	margin-top: 120px;
+  background: url('../img/infocard-g.png');
+  min-height: 440px;
+  background-size: cover;
+  display: flow-root;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 120px;
 }
 .usrImg{
-	text-align: center;
-	width: 120px;
-	height: 120px;
-	margin: auto;	
-	background-image:linear-gradient(to right, #3a3fdf , #dc3981);
-	padding: 5px;
-	border-radius: 100%;
-	box-shadow: 1px 1px 12px #cccccc73;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  margin: auto; 
+  background-image:linear-gradient(to right, #3a3fdf , #dc3981);
+  padding: 5px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 12px #cccccc73;
     margin-top: -52px;
 }
 .usrImg img{
-	border-radius: 100%;
-	width: 100%;
-	height: 100%;
-  	animation: pulse 1s infinite ease-in-out alternate;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+    animation: pulse 1s infinite ease-in-out alternate;
 }
 @keyframes pulse {
   from { transform: scale(0.9); }
@@ -91,7 +91,7 @@ body{
 
 
 .cup-icon img{
-  	animation: bounce 2s ease;	
+    animation: bounce 2s ease;  
 }
 @keyframes bounce {
    70% { transform:translateY(0%); }
@@ -103,19 +103,19 @@ body{
     100% { transform:translateY(0); }
 }
 .info-card p{
-	text-align: center;
-	font-size: 28px;
-	color: #fff;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
     font-family: 'Inter-Regular';
     margin-top: 14px;
 }
 .info-card h2{
-	text-align: center;
+  text-align: center;
     color: #fff;
     font-family: 'Inter-Black';
-    font-size: 68px;
+    font-size: 50px;
     margin-top: 101px;
-	animation: float 2s steps(22), blink .5s step-end alternate;
+  animation: float 2s steps(22), blink .5s step-end alternate;
 }
 @keyframes float {
   0%,100%{ transform:translate(0); }
@@ -127,20 +127,20 @@ body{
 @media only screen and (max-width: 767px){
 body{
     background-size: cover;
-    background-position: top;	
+    background-position: top; 
 }
 .layout-row{
-	display: block;
+  display: block;
 }
 .colum-6{
-	width: 100%;
+  width: 100%;
 }
 .info-card{
-	width: 100%
+  width: 100%
 }
 .layout-container{
-	max-width: 100%;
-	padding: 0px 0px;
+  max-width: 100%;
+  padding: 0px 0px;
 }
 .screen-content {
     padding: 20px 20px;
@@ -157,9 +157,9 @@ body{
     padding-bottom: 56px;
 }
 .info-card h2{
-	font-size: 41px;
+  font-size: 41px;
     margin-top: 0;
-    line-height: 26px;	
+    line-height: 26px;  
 }
 
 } /* mobile view */
@@ -167,8 +167,8 @@ body{
 @media(min-width:768px) and (max-width: 1024px){
 .card-tagline h3{
     font-size: 84px;
-	line-height: 103px;
-    margin-top: 22px;	
+  line-height: 103px;
+    margin-top: 22px; 
 }
 .info-card{
     background-size: 100%;
@@ -183,3 +183,35 @@ body{
 }
 
 } /*ipad screen*/
+
+
+@media(min-width:1920px) and (max-width: 5120px){
+
+.layout-container{
+    max-width: 1700px;
+}
+.info-card{
+    background-repeat: no-repeat;
+    min-height: 550px;
+    background-size: 100%;
+    position: relative;
+}
+.info-card h2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 63px;
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    margin-top:   0px;
+    font-size: 63px;
+}
+.info-card p{
+    margin-top: 36px !important;
+    max-width: 450px;
+    margin:auto;  
+}
+
+
+}

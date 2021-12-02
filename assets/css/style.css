@@ -17,6 +17,16 @@ body{
     font-family: 'gtflex';
     src: url('fonts/gtflexaallneu7gx_2.ttf');
 }
+@font-face{
+    font-family: 'sanchezbold-webfont';
+    src: url('fonts/sanchez-bold-webfont.ttf');
+}
+@font-face{
+    font-family: 'Sanchezregular';
+    src: url('fonts/Sanchezregular.otf');
+}
+
+
 /* Screen 2 Css*/
 .layout2-bg{
   padding-top: 20px;

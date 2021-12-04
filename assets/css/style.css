@@ -249,7 +249,7 @@ body{
     background: url(../img/trekking-img/wood_1.png);
     background-size: 100% 100%;
     width: 100%;    
-    margin-top: -40px;
+    margin-top: -28px;
     margin-left: 30px;
 }
 .screen2-vs2{
@@ -445,5 +445,11 @@ body{
     margin:auto;  
 }
 
+.screen2-vs2{
+    margin-top: -27px;    
+}
+.left-media img{
+    height: 209px;    
+}
 
 }

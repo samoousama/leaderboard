@@ -29,6 +29,14 @@ body{
     font-family: 'BADABB';
     src: url('fonts/BADABB__.TTF');
 }
+@font-face{
+    font-family: 'Oswald-SemiBold';
+    src: url('fonts/Oswald-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'Oswald-Bold';
+    src: url('fonts/Oswald-Bold.ttf');
+}
 
 
 /* Screen 2 Css*/
@@ -422,6 +430,144 @@ body{
     margin-right: 15px;
 }
 
+/*********** Goal Tracker layout5  ***********/
+.goal-traker5-main{
+    background: url('../img/goal-tracker5-img/Themed-Goal-Tracker-bg.png');
+    width: 100%;
+    background-size: cover;  
+    position: absolute;
+    height: 100%;    
+    padding-top: 50px;
+}
+.goal-traker5-heading{
+    text-align: center;
+}
+.goal-traker5-heading h3{
+    font-family: 'Oswald-SemiBold';
+    font-size: 65px;
+    color: #60803d;
+    margin-top: 0;
+}
+.goaltraker5-usercard{
+    background: #fff;
+    padding:10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+.goaltraker5-userprofile{
+    border: 15px solid #63934e;
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    border-radius:100%;
+    padding:10px;
+}
+.goaltraker5-userprofile img{
+    height: 180px;
+    border-radius: 100px;
+    width: 180px;
+}
+.goaltraker5-caption{
+    margin-top: 10px;
+    border-bottom: 2px solid #eab8a9;
+}
+.goaltraker5-caption h4{
+    font-family: 'Oswald-SemiBold';
+    font-size: 25px;
+    line-height: 33px;
+    color: #ca4e28;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.goaltraker5-revenuecard{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background: #fff;
+    margin: 0px 40px;
+    border-radius: 20px;
+    padding: 60px 0px;
+}
+.goaltraker5-revenuecaption h4{
+    font-family: 'Oswald-Bold';
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #60803d;
+    margin: 0;
+}
+.goaltraker5-price{
+    border-top: 2px solid #5f803d;
+    border-bottom: 2px solid #5f803d;        
+    margin: 30px 0px;
+}
+.goaltraker5-price h1{
+    font-family: 'Oswald-SemiBold';
+    color: #ca4e28;
+    font-size: 80px;
+    margin: 0;
+    padding: 10px 0px;
+}
+.single-chart {
+  width: 96%;
+  margin: auto;
+  position: relative;
+}
+.circular-chart {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-height: 250px;
+}
+.circle-bg {
+  fill: none;
+  stroke: #f6911b;
+  stroke-width: 3.8;
+}
+.circle {
+  fill: none;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+.circular-chart.blue .circle {
+  stroke: #da4311;
+}
+.goaltraker5-target-circle .percentage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.goaltraker5-target-circle .percentage span{
+    display: block;
+    font-size: 53px;
+    font-family: 'Oswald-Bold';
+    color: #ca4e28;    
+    line-height: 60px;
+}
+.goaltraker5-target-circle .percentage p{
+    font-family: 'Oswald-Bold';
+    color: #f69423;       
+    text-transform: uppercase;
+    margin: 0;
+    max-width: 100px;
+    font-size: 13px;
+    text-align: center;
+}
+
 
 
 /* Media query */
@@ -560,6 +706,31 @@ body{
     font-size: 80px;    
 }
 
+/*********** Goal Tracker layout5  ***********/
+
+.goal-traker5-heading h3{
+    font-size: 32px;    
+}
+.colum-3{
+    width: 100%;
+}
+.goaltraker5-revenuecard{
+    margin: 25px 0px;
+}
+.goal-traker5-main .layout-container{
+    padding: 0px 15px;    
+}
+.goal-traker5-main{
+    height: auto;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+.goaltraker5-price h1{
+    font-size: 56px;    
+}
+.goaltraker5-revenuecaption h4{
+    font-size: 24px;    
+}
 
 
 
@@ -627,6 +798,24 @@ body{
     margin-top: -20px;
 }
 
+.colum-3{
+    width: 100%;
+}
+.colum-6 {
+    width: 100%;
+}
+.goal-traker5-main .layout-row {
+    display: block;
+}
+.goaltraker5-revenuecard{
+    margin: 20px 0px;    
+}
+.goal-traker5-main{
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
 
 } /*ipad screen*/
 
@@ -673,6 +862,12 @@ body{
 }
 .comics-vs-img img {
     width: 280px;
+}
+.goal-traker5-main .layout-container{
+    max-width: 1200px;    
+}
+.goaltraker5-price h1{
+    font-size: 73px;
 }
 
 }

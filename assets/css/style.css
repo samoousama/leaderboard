@@ -78,9 +78,6 @@ body{
     transform: translateY(0);
   }
 }
-.colum-6{
-  width: 50%;
-}
 .info-card{
   background: url('../img/infocard-g.png');
   min-height: 440px;
@@ -438,6 +435,9 @@ body{
     position: absolute;
     height: 100%;    
     padding-top: 50px;
+}
+.colum-3 {
+    width: 25%;
 }
 .goal-traker5-heading{
     text-align: center;

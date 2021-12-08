@@ -432,7 +432,7 @@ body{
 
 /*********** Goal Tracker layout5  ***********/
 .goal-traker5-main{
-    background: url('../img/goal-tracker5-img/Themed-Goal-Tracker-bg.png');
+    background: url('../img/goal-tracker5-img/Themed-Goal-Tracker-bg.png') !important;
     width: 100%;
     background-size: cover;  
     position: absolute;

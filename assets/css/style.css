@@ -37,6 +37,10 @@ body{
     font-family: 'Oswald-Bold';
     src: url('fonts/Oswald-Bold.ttf');
 }
+@font-face{
+    font-family: 'AmericanTypewriter';
+    src: url('fonts/AmericanTypewriter.ttc');
+}
 
 
 /* Screen 2 Css*/
@@ -568,7 +572,137 @@ body{
     text-align: center;
 }
 
-
+/*********** Goal Tracker layout6  ***********/
+.goal-traker6-main{
+    background: url('../img/goal-tracker6-img/Themed-Goal-Tracker-bg.png');
+    width: 100%;
+    background-size: cover;  
+    position: absolute;
+    height: 100%;    
+    padding-top: 50px;
+}
+.traker6-offset-colum{
+    width: 70%;
+    float: right;
+}
+.goal-traker6-heading h3{
+    font-family: 'AmericanTypewriter';
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.quarterly-revenue-flex{
+    display: flex;
+}
+.quarterly-revenue-card{
+    background: #cdc9d1ad;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.quarterly-revenue-media{
+    width: 30%;
+    margin-right: 20px;
+}
+.quarterly-revenue-media img{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #8db8e2 , #6887d3);
+    border-radius: 20px;
+    padding: 7px;
+}
+.quarterly-revenue-content{
+    width: 70%;
+    padding-left: 30px;
+}
+.quarterly-revenue-content h3{
+    color: #37629e;
+    font-family: 'AmericanTypewriter';
+    margin-top: 0;
+    font-size: 40px;
+    max-width: 418px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.quarterly-revenue-devider{
+      background-image: linear-gradient(to right, #8db8e2 , #6887d3);
+      width: 100%;
+      height: 8px;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-bottom: 24px;
+}
+.quarterly-revenue-content span{
+    color: #37629e;
+    font-family: 'AmericanTypewriter';
+    font-size: 26px;
+    margin: 15px 0;
+    display: block;
+    text-transform: uppercase;
+}
+.quarterly-revenue-content h1{
+    color: #3258b1;
+    font-family: 'AmericanTypewriter';
+    font-size: 86px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.quarterly-revenue-progress-bar{
+    background: #9cc3ff;
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.quarterly-revenue-number{
+    background: #6887d3;
+    height: 65px;
+    border-radius:10px 10px 10px 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+    color: #fff;
+    font-family: 'AmericanTypewriter';
+    font-size: 43px;
+    font-weight: bold;
+}
+.of-target-number{
+    width: 60%;
+}
+.of-target-number h3{
+    margin: 0;
+    font-size: 26px;
+    color: #37629e;
+    font-family: 'AmericanTypewriter';
+    padding-top: 14px;
+    padding-left: 15px;
+}
+.target-hit-number{
+    text-align: right;
+    width: 40%;
+}
+.target-hit-number h3{
+    font-size: 26px;
+    color: #37629e;
+    font-family: 'AmericanTypewriter';
+    margin: 0;
+    padding-top: 14px;
+    text-align: right;
+}
+.target-hit-number h3 strong{
+    display: block;
+}
+.ends-tagline{
+    text-align: center;
+}
+.ends-tagline h4{
+    font-size: 29px;
+    font-family: 'AmericanTypewriter';
+    color: #fff;
+}
 
 /* Media query */
 @media only screen and (max-width: 767px){
@@ -732,6 +866,54 @@ body{
     font-size: 24px;    
 }
 
+/*********** Goal Tracker layout6  ***********/
+.traker6-offset-colum{
+    width: 100%;
+}
+.quarterly-revenue-flex {
+    display: block;
+}
+.quarterly-revenue-media{
+    width: 100%;
+}
+.quarterly-revenue-content{
+    width: 100%;   
+    padding-left: 0px;
+}
+.quarterly-revenue-content h1{
+    text-align: center;
+    font-size: 41px;
+}
+.quarterly-revenue-card .d-flex{
+    display: block;
+}
+.of-target-number {
+    width: 100%;
+}
+.target-hit-number{
+    width: 100%;   
+    text-align: center;
+}
+.target-hit-number h3{
+    text-align: center;
+}
+.of-target-number h3{
+    text-align: center;
+}
+.goal-traker6-main{
+    height: auto;
+}
+.goal-traker6-main .layout-container{
+    padding: 0px 15px;    
+}
+.goal-traker6-heading h3{
+    font-size: 30px;    
+}
+.quarterly-revenue-content h3{
+    font-size: 26px;    
+}
+
+
 
 
 
@@ -814,6 +996,19 @@ body{
     height: auto;
     padding-bottom: 30px;
 }
+.traker6-offset-colum{
+    width: 100%;    
+}
+.quarterly-revenue-content h3{
+    font-size: 26px;    
+}
+.quarterly-revenue-devider{
+    margin-top: 10px;
+    margin-bottom: 17px;    
+}
+.quarterly-revenue-content h1{
+    font-size: 70px;    
+}
 
 
 
@@ -869,5 +1064,15 @@ body{
 .goaltraker5-price h1{
     font-size: 73px;
 }
-
+.quarterly-revenue-content h3{
+    font-size: 59px;
+    max-width: 636px;    
+}
+.quarterly-revenue-content span{
+    font-size: 40px;    
+}
+.quarterly-revenue-content h1{
+    font-size: 120px;
+    margin-top: 28px;    
+}
 }
